@@ -26,6 +26,7 @@ O jogador pode finalizar a caçada se afastando da área ou interagindo novament
 Ao sair da caçada, as armas e equipamentos são removidos do inventário.
 
 **Delivery**
+
 Esse sistema de delivery permite que os jogadores realizem missões de entrega e recebam recompensas em dinheiro ou itens.
 
 Iniciando o Delivery:
