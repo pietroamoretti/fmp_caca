@@ -1,13 +1,16 @@
 **__Caça e Delivery para FiveM__**
+
 Esse script é focado em dois sistemas principais: caçada e delivery. Ele foi desenvolvido para rodar com base no framework VRP, permitindo que os jogadores participem de caçadas e missões de entrega com recompensas configuráveis.
 
-Como Funciona
+**Como Funciona**
+
 Caçada
 Na área de caça, o jogador pode iniciar o processo de caça, coletando materiais e itens específicos. Aqui está o passo a passo de como funciona:
 
-Iniciando a Caçada:
+**Iniciando a Caçada:**
 
-Sistema de Caça e Delivery para FiveM
+**Sistema de Caça e Delivery para FiveM**
+
 O jogador se aproxima do NPC da caçada (configurado em Config.npcTrabalho) e pressiona [E] para iniciar a caçada.
 Um veículo (configurado em Config.veiculoSpawn) é spawnado e três animais são gerados no mapa.
 O jogador recebe armas e equipamentos de caça automaticamente.
@@ -21,7 +24,8 @@ Saindo da Caçada:
 
 O jogador pode finalizar a caçada se afastando da área ou interagindo novamente com o NPC.
 Ao sair da caçada, as armas e equipamentos são removidos do inventário.
-Delivery
+
+**Delivery**
 Esse sistema de delivery permite que os jogadores realizem missões de entrega e recebam recompensas em dinheiro ou itens.
 
 Iniciando o Delivery:
@@ -37,7 +41,8 @@ Após concluir a entrega, o jogador receberá a recompensa configurada. Pode ser
 Configuração
 Todas as configurações estão no arquivo config.lua. Aqui é onde você define os itens que os jogadores vão receber, as coordenadas dos NPCs e dos pontos de entrega, o tipo de veículo que será usado na caçada, e muito mais.
 
-Principais Configurações:
+**Principais Configurações:**
+
 Config.addItemFunction: Função usada para adicionar itens no inventário.
 Config.removeItemFunction: Função usada para remover itens do inventário.
 Config.randomItems: Itens aleatórios que podem dropar ao matar os animais.
@@ -53,6 +58,8 @@ Personalize as configurações no arquivo config.lua de acordo com sua cidade.
 Inicie o servidor e aproveite o sistema de caça e delivery!
 Comandos
 /delivery: Inicia uma missão de entrega aleatória no mapa.
-Observações
+
+**Observações**
+
 O script foi feito para ser flexível. Você pode ajustar os itens, NPCs, veículos e locais conforme a necessidade da sua cidade.
 Tudo é configurável diretamente no config.lua.
