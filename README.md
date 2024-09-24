@@ -45,19 +45,29 @@ Todas as configurações estão no arquivo config.lua. Aqui é onde você define
 **Principais Configurações:**
 
 Config.addItemFunction: Função usada para adicionar itens no inventário.
+
 Config.removeItemFunction: Função usada para remover itens do inventário.
+
 Config.randomItems: Itens aleatórios que podem dropar ao matar os animais.
+
 Config.huntingItem: Itens fixos que serão dados ao caçar os animais.
+
 Config.veiculoSpawn: Veículo que será spawnado para a caçada.
+
 Config.npcDelivery: NPC utilizado para a entrega.
+
 Config.qtdDinheiro: Quantidade de dinheiro ou item recebido por cada entrega.
-Instalação
+
+**Instalação**
+
 Baixe e coloque os arquivos do script na sua pasta de recursos do FiveM.
 Adicione o recurso ao server.cfg da sua cidade.
 Verifique se o framework VRP está corretamente configurado no seu servidor.
 Personalize as configurações no arquivo config.lua de acordo com sua cidade.
 Inicie o servidor e aproveite o sistema de caça e delivery!
-Comandos
+
+**Comandos**
+
 /delivery: Inicia uma missão de entrega aleatória no mapa.
 
 **Observações**
